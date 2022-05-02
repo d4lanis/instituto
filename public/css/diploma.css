@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#bg {
+    margin: -40px;
+    background-size: cover;
+}
+
+.fondo2 {
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/06/Free-HD-Solid-Color-Wallpaper.jpg);
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: -30px;
+}
+.xcontent {
+    /* border: 3px solid green; */
+    position: relative;
+    margin: -10px;
+}
+
+.logo_superior_kardex {
+    position: absolute;
+
+    /* border: 3px solid green; */
+}
+
+.logo_kardex {
+    float: right;
+    width: 30%;
+}
+
+.table_kardex {
+    /* border: 3px solid green; */
+}
+.text-center-kardex {
+    position: absolute;
+
+    /* border: 3px solid #73ad21; */
+}
+.titulo_kardex {
+    font-size: 14px;
+    text-align: justify;
+    float: right;
+    width: 75%;
+}
+.minima {
+    font-size: 9px;
+    text-align: right;
+    padding-top: 2;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+
+    font-size: 12px;
+}
+
+th,
+td {
+    text-align: left;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.texto {
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header {
+    margin: auto;
+    width: 60%;
+    /* border: 3px solid green; */
+    top: 7%;
+    left: 25%;
+    position: absolute;
+}
+
+.footer {
+    margin: auto;
+    width: 60%;
+    /* border: 3px solid green; */
+    bottom: 7%;
+    left: 25%;
+    height: 22%;
+    position: absolute;
+}
+
+.footer_kardex {
+    margin: auto;
+    width: 90% !important;
+    /* border: 3px solid green; */
+    bottom: 7%;
+    left: 5%;
+
+    position: absolute;
+}
+
+.codigo_barras {
+    margin: auto;
+    width: 15%;
+    /* border: 3px solid green; */
+    bottom: 5%;
+    right: 1%;
+    height: 10%;
+    position: absolute;
+}
+
+.fecha {
+    font-size: 12px;
+}
+.titulo {
+    font-size: 21px;
+}
+
+.fecha_footer_kardex {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer_titulo_kardex {
+    font-size: 17px;
+}
+
+.espacio {
+    margin-top: 45px;
+}
+.mayusculas {
+    text-transform: uppercase;
+}
+.firma {
+    font-size: 12px;
+}
+
+.firma_kardex {
+    font-size: 12px;
+    text-align: center;
+}
+
+.curso {
+    font-size: 22px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-center-footer {
+    text-align: center;
+    width: 90%;
+    text-align: justify;
+}
+
+.page-break {
+    page-break-after: always;
+}
